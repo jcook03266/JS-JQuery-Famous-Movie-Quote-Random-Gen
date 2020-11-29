@@ -25,10 +25,12 @@ First off, as mentioned previously you must link the JQuery core in your HTML do
   *You can just copy and paste the above snippet anywhere inside of the <html></html> tags into your html document*
   ------------------------------------------------------------
   How do I apply this?
-  Now, after all of the setup is done, in order to utilize the script you attach the following id to any text based tag you're using "<h1>, <p1>" etc:
+  Now, after all of the setup is done, in order to utilize the script you attach the following id to any text based tag you're using <h-1>, <p-1> etc:
   
   "id = "rnd-quote-data""
   ex.)
-  "<h2 class = "ex-css" id = "rnd-quote-data">Sample text</h2>"
+  <h-2 class = "ex-css" id = "rnd-quote-data">Sample text</h-2>
+  
+  Note: remove the dash '-' between the h-2 and other tags
   ------------------------------------------------------------
   And you're done!
