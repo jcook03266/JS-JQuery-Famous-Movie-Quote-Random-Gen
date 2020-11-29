@@ -19,11 +19,27 @@ to spice things up and give a little fun to your code.
 
 *How do I install this?*
 
-First off, as mentioned previously you must link the JQuery core in your HTML document using the provided snippet above, this linkage doesn't have to be placed in the <head> section, just place it anywhere you'd like and make sure it's organized in line with your other code. Second, after downloading the script from the main .js file, you can simply place it in the root folder along with the rest of your html and other documents, then link the script anywhere you'd like, like so:
+First off, as mentioned previously you must link the JQuery core in your HTML document using the provided snippet above, this linkage doesn't have to be placed in the <head> section, just place it anywhere you'd like and make sure it's organized in line with your other code. Second, after downloading the script from the main .js file, you can simply use the external link or place the physical .js file in your root folder along with the rest of your html and other documents, then link the script anywhere you'd like, like so:
   
- <!-- Linking FMQRG.js Core -->    
-<script src="FMQRG.js"></script>
+ //For root folder placement of the script//
+ <!-- Linking root based FMQRG Core -->    
+<script src="FMQRG.js"> </script>
  <!-------------------------->
+ 
+ <!-- getQuote() method call triggers the script -->
+ <script> getQuote(); </script>
+  <!-- getQuote() method call triggers the script -->
+ //////////////////////////////////////////
+ 
+  //For external link usage of the script//
+   <!-- Linking external link based FMQRG Core -->    
+<script src="https://jcook03266.s3.us-east-2.amazonaws.com/FMQRG.js"> </script>
+ <!-------------------------->
+ 
+ <!-- getQuote() method call triggers the script -->
+ <script> getQuote(); </script>
+  <!-- getQuote() method call triggers the script -->
+ //////////////////////////////////////////
  
   *You can just copy and paste the above snippet anywhere inside of the html tags into your html document*
   ------------------------------------------------------------
