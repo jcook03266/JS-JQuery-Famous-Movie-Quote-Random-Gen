@@ -23,6 +23,10 @@
 <link rel="stylesheet" href="https://byprincemediabucket.s3.us-east-2.amazonaws.com/Code/byPrinceMediaUniversalCSS.css">
 <!-- CSS -->
 
+<!-- Linking Sample Page JS Core -->     
+<script src="https://byprincemediabucket.s3.us-east-2.amazonaws.com/Code/byPrinceMediaUniversalCSS.css"></script>  
+<!-- Linking Sample Page JS Core -->     
+  
 <!-- Linking JQuery Core -->  
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <!-- Linking JQuery Core -->  
@@ -52,6 +56,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet"> 
 <!-- Charm -->
 <!-- Google Fonts -->
+<!-- Temp Style sheet that prevents FOUC by loading up the rule automatically -->
+<style>
+#body-id{
+background-color: #000021;
+}
+#Document_container{
+opacity: 0; /* Early binding to prevent FOUC    /*CHANGE THIS TO 1 WHEN DONE*/
+} 
+</style>
+
+<!-- The rule hierarchy is overruled after 3 seconds, after which the opacity becomes 1 and the content is loaded -->
 <!-- Temp Style sheet that prevents FOUC by loading up the rule automatically -->
 
 <!-- title -->
@@ -177,4 +192,24 @@ flex-basis: 100%;
 </section>  
 </section>
 </body>
+    
+<!-- JS -->
+<!--------------------------------------------------->
+<!-- Linking JQuery Core -->  
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+////////////////////////////////////////////////////////////////
+
+//Onload functions 
+window.onload = function() {
+//Timeout function that sets the opacity of the body to 1 to prevent a FOUC 
+setTimeout(function(){ 
+document.getElementById("Document_container").style.opacity = "1";}, 0);  
+};
+//End of onload functions
+/////////////////////////////////////////
+</script>
+<!--------------------------------------------------->
+<!-- JS -->   
+   
 </html>
