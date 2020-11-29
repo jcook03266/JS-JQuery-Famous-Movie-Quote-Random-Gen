@@ -9,7 +9,7 @@ The following is a script using 'javascript' that populates any text based html 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
  <!-------------------------->
  
- *You can just copy and paste the above snippet anywhere inside of the <html></html> tags into your html document*
+ *You can just copy and paste the above snippet anywhere inside of the html tags into your html document*
  ------------------------------------------------------------
 
 *Why use this?*
@@ -25,7 +25,7 @@ First off, as mentioned previously you must link the JQuery core in your HTML do
 <script src="FMQRG.js"></script>
  <!-------------------------->
  
-  *You can just copy and paste the above snippet anywhere inside of the <html></html> tags into your html document*
+  *You can just copy and paste the above snippet anywhere inside of the html tags into your html document*
   ------------------------------------------------------------
   *How do I apply this?*
   
