@@ -28,7 +28,6 @@ First off, as mentioned previously you must link the JQuery core in your HTML do
   Now, after all of the setup is done, in order to utilize the script you attach the following id to any text based tag you're using <h1>, <p1> etc:
   
   id = "rnd-quote-data"
-  
   ex.)
   <h2 class = "ex-css" id = "rnd-quote-data">Sample text</h2>
   ------------------------------------------------------------
